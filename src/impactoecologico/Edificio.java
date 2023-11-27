@@ -17,7 +17,8 @@ public class Edificio implements ImpactoEcologicoI {
         this.emisionesCarbono = emisionesCarbono;
         this.cantidadActividad = cantidadActividad;
     }
-@Override
+    
+    @Override
     public double obtenerImpactoEcologico() {
         return emisionesCarbono * cantidadActividad;
     }
