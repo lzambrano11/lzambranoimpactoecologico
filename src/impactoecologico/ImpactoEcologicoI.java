@@ -4,10 +4,11 @@
  * and open the template in the editor.
  */
 package impactoecologico;
+
 /**
  *
  * @author Keva
  */
 public interface ImpactoEcologicoI {
-     double obtenerImpactoEcologico();    
+    
 }
