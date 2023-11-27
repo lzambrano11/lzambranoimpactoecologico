@@ -17,6 +17,7 @@ public class ImpactoEcologico {
      */
     public static void main(String[] args) {
        
+        
         ArrayList<ImpactoEcologicoI> objetos = new ArrayList<>();
         // Creación de objetos de cada clase
         Edificio edificio = new Edificio(0.5, 100);
@@ -27,6 +28,7 @@ public class ImpactoEcologico {
         objetos.add(edificio);
         objetos.add(auto);
         objetos.add(bicicleta);
+            
 
         // Iterar y calcular el impacto ecológico para cada objeto
         for (ImpactoEcologicoI objeto : objetos) {
