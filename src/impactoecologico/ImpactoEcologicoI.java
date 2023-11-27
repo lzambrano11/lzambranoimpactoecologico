@@ -10,5 +10,5 @@ package impactoecologico;
  * @author Keva
  */
 public interface ImpactoEcologicoI {
-    
+     double obtenerImpactoEcologico();   
 }
